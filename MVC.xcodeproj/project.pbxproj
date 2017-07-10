@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		746771481F1340A30090C35C /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746771471F1340A30090C35C /* UIFont.swift */; };
+		7467714B1F134AA00090C35C /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467714A1F134AA00090C35C /* Macro.swift */; };
+		7467714D1F134D7A0090C35C /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467714C1F134D7A0090C35C /* UILabel.swift */; };
+		7467714F1F134DA60090C35C /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467714E1F134DA60090C35C /* UIButton.swift */; };
+		746771511F134E420090C35C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746771501F134E420090C35C /* String.swift */; };
 		747204E31F0F580B00BCF9C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747204E21F0F580B00BCF9C3 /* AppDelegate.swift */; };
 		747204E51F0F580B00BCF9C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747204E41F0F580B00BCF9C3 /* ViewController.swift */; };
 		747204E81F0F580B00BCF9C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747204E61F0F580B00BCF9C3 /* Main.storyboard */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		746771471F1340A30090C35C /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		7467714A1F134AA00090C35C /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
+		7467714C1F134D7A0090C35C /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		7467714E1F134DA60090C35C /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		746771501F134E420090C35C /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		747204DF1F0F580B00BCF9C3 /* MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		747204E21F0F580B00BCF9C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		747204E41F0F580B00BCF9C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		746771491F134A890090C35C /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				7467714A1F134AA00090C35C /* Macro.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
 		747204D61F0F580B00BCF9C3 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +76,7 @@
 		747204E11F0F580B00BCF9C3 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				746771491F134A890090C35C /* Globals */,
 				747204F41F0F587C00BCF9C3 /* Extension */,
 				747204E21F0F580B00BCF9C3 /* AppDelegate.swift */,
 				747204E41F0F580B00BCF9C3 /* ViewController.swift */,
@@ -74,6 +93,10 @@
 			children = (
 				747204F51F0F587C00BCF9C3 /* UINavigationController.swift */,
 				747204F91F0F5D6300BCF9C3 /* UIColor.swift */,
+				746771471F1340A30090C35C /* UIFont.swift */,
+				7467714C1F134D7A0090C35C /* UILabel.swift */,
+				7467714E1F134DA60090C35C /* UIButton.swift */,
+				746771501F134E420090C35C /* String.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -152,7 +175,12 @@
 			files = (
 				747204F61F0F587C00BCF9C3 /* UINavigationController.swift in Sources */,
 				747204FA1F0F5D6300BCF9C3 /* UIColor.swift in Sources */,
+				7467714D1F134D7A0090C35C /* UILabel.swift in Sources */,
+				746771511F134E420090C35C /* String.swift in Sources */,
+				7467714F1F134DA60090C35C /* UIButton.swift in Sources */,
 				747204E51F0F580B00BCF9C3 /* ViewController.swift in Sources */,
+				746771481F1340A30090C35C /* UIFont.swift in Sources */,
+				7467714B1F134AA00090C35C /* Macro.swift in Sources */,
 				747204E31F0F580B00BCF9C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +345,7 @@
 				747204F31F0F580B00BCF9C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
