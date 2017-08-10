@@ -15,4 +15,7 @@ extension UIButton {
         self.layer.masksToBounds = true
     }
     
+    func setBoder(Boder:NSInteger) {
+        self.setBoder(Boder: Boder)
+    }
 }

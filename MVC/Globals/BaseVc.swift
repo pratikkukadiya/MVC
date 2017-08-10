@@ -16,7 +16,11 @@ class BaseVc: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
 
+    
+    func AppDelegate() -> AppDelegate {
+        return UIApplication.shared.delegate as! AppDelegate
     }
 
 }

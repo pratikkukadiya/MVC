@@ -10,4 +10,13 @@ import UIKit
 
 extension String {
     
+    func trimmed() -> String{
+        return self.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+    
+    func Legnth(_ string:String) -> NSInteger {
+        return string.characters.count
+    }
+    
 }
+

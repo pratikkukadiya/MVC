@@ -88,8 +88,8 @@
 		7415A8B21F3C5A0300F0D02D /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				7415A8B41F3C5A0300F0D02D /* Font */,
 				7415A8B31F3C5A0300F0D02D /* Assets.xcassets */,
+				7415A8B41F3C5A0300F0D02D /* Font */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				7415A8B21F3C5A0300F0D02D /* Resource */,
-				746771491F134A890090C35C /* Globals */,
 				7415A8D41F3C5EE900F0D02D /* CustomControll */,
 				747204F41F0F587C00BCF9C3 /* Extension */,
+				746771491F134A890090C35C /* Globals */,
 				747204E21F0F580B00BCF9C3 /* AppDelegate.swift */,
 				747204E41F0F580B00BCF9C3 /* ViewController.swift */,
 				747204E61F0F580B00BCF9C3 /* Main.storyboard */,
@@ -167,9 +167,9 @@
 		747204F41F0F587C00BCF9C3 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				747204F51F0F587C00BCF9C3 /* UINavigationController.swift */,
 				747204F91F0F5D6300BCF9C3 /* UIColor.swift */,
 				746771471F1340A30090C35C /* UIFont.swift */,
+				747204F51F0F587C00BCF9C3 /* UINavigationController.swift */,
 				7467714C1F134D7A0090C35C /* UILabel.swift */,
 				7467714E1F134DA60090C35C /* UIButton.swift */,
 				7415A8D21F3C5D4F00F0D02D /* UITextField.swift */,
