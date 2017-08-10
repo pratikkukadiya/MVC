@@ -11,4 +11,9 @@ import UIKit
 
 extension UILabel{
     
+    func setRadious(Radious:CGFloat) {
+        self.layer.cornerRadius = Radious
+        self.layer.masksToBounds = true
+    }
+    
 }

@@ -10,4 +10,9 @@ import UIKit
 
 extension UIButton {
     
+    func setRadious(Radious:CGFloat) {
+        self.layer.cornerRadius = Radious
+        self.layer.masksToBounds = true
+    }
+    
 }
