@@ -17,6 +17,7 @@ extension UIColor
     {
         static let NavigationBar = UIColor.RGB(R: 206.0,G: 32,B: 32,A: 1)
         static let FootColor = UIColor.RGB(R: 206.0, G: 32, B: 32, A: 1)
+        static let HeadFont = UIColor.RGB(R: 100.0, G: 32, B: 23, A: 1)
     }
     
     

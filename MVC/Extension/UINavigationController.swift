@@ -11,7 +11,6 @@ import UIKit
 
 extension UINavigationController
 {
-    
     // MARK: Push Methods
     
     func pushTo(viewcontroller : String ,animated :Bool)
@@ -48,6 +47,4 @@ extension UINavigationController
     {
         self.navigationController?.Dismiss(animated: animated)
     }
-    
-    
 }
