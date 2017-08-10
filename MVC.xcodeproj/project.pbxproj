@@ -20,6 +20,12 @@
 		7415A8CB1F3C5A7600F0D02D /* MyriadPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7415A8BF1F3C5A7600F0D02D /* MyriadPro-Regular.otf */; };
 		7415A8CC1F3C5A7600F0D02D /* MyriadPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7415A8C01F3C5A7600F0D02D /* MyriadPro-Semibold.otf */; };
 		7415A8CD1F3C5A7600F0D02D /* MyriadPro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7415A8C11F3C5A7600F0D02D /* MyriadPro-SemiboldIt.otf */; };
+		7415A8CF1F3C5BAE00F0D02D /* BaseVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7415A8CE1F3C5BAE00F0D02D /* BaseVc.swift */; };
+		7415A8D11F3C5CFE00F0D02D /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7415A8D01F3C5CFE00F0D02D /* NSDate.swift */; };
+		7415A8D31F3C5D4F00F0D02D /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7415A8D21F3C5D4F00F0D02D /* UITextField.swift */; };
+		7415A8D61F3C5F3600F0D02D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7415A8D51F3C5F3600F0D02D /* CustomButton.swift */; };
+		7415A8D81F3C5F5300F0D02D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7415A8D71F3C5F5300F0D02D /* CustomTextField.swift */; };
+		7415A8DA1F3C5F7D00F0D02D /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7415A8D91F3C5F7D00F0D02D /* CustomLabel.swift */; };
 		746771481F1340A30090C35C /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746771471F1340A30090C35C /* UIFont.swift */; };
 		7467714B1F134AA00090C35C /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467714A1F134AA00090C35C /* Macro.swift */; };
 		7467714D1F134D7A0090C35C /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467714C1F134D7A0090C35C /* UILabel.swift */; };
@@ -47,6 +53,12 @@
 		7415A8BF1F3C5A7600F0D02D /* MyriadPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Regular.otf"; sourceTree = "<group>"; };
 		7415A8C01F3C5A7600F0D02D /* MyriadPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Semibold.otf"; sourceTree = "<group>"; };
 		7415A8C11F3C5A7600F0D02D /* MyriadPro-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-SemiboldIt.otf"; sourceTree = "<group>"; };
+		7415A8CE1F3C5BAE00F0D02D /* BaseVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVc.swift; sourceTree = "<group>"; };
+		7415A8D01F3C5CFE00F0D02D /* NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate.swift; sourceTree = "<group>"; };
+		7415A8D21F3C5D4F00F0D02D /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		7415A8D51F3C5F3600F0D02D /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		7415A8D71F3C5F5300F0D02D /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		7415A8D91F3C5F7D00F0D02D /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		746771471F1340A30090C35C /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		7467714A1F134AA00090C35C /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
 		7467714C1F134D7A0090C35C /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
@@ -101,10 +113,21 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
+		7415A8D41F3C5EE900F0D02D /* CustomControll */ = {
+			isa = PBXGroup;
+			children = (
+				7415A8D51F3C5F3600F0D02D /* CustomButton.swift */,
+				7415A8D71F3C5F5300F0D02D /* CustomTextField.swift */,
+				7415A8D91F3C5F7D00F0D02D /* CustomLabel.swift */,
+			);
+			path = CustomControll;
+			sourceTree = "<group>";
+		};
 		746771491F134A890090C35C /* Globals */ = {
 			isa = PBXGroup;
 			children = (
 				7467714A1F134AA00090C35C /* Macro.swift */,
+				7415A8CE1F3C5BAE00F0D02D /* BaseVc.swift */,
 			);
 			path = Globals;
 			sourceTree = "<group>";
@@ -130,6 +153,7 @@
 			children = (
 				7415A8B21F3C5A0300F0D02D /* Resource */,
 				746771491F134A890090C35C /* Globals */,
+				7415A8D41F3C5EE900F0D02D /* CustomControll */,
 				747204F41F0F587C00BCF9C3 /* Extension */,
 				747204E21F0F580B00BCF9C3 /* AppDelegate.swift */,
 				747204E41F0F580B00BCF9C3 /* ViewController.swift */,
@@ -148,7 +172,9 @@
 				746771471F1340A30090C35C /* UIFont.swift */,
 				7467714C1F134D7A0090C35C /* UILabel.swift */,
 				7467714E1F134DA60090C35C /* UIButton.swift */,
+				7415A8D21F3C5D4F00F0D02D /* UITextField.swift */,
 				746771501F134E420090C35C /* String.swift */,
+				7415A8D01F3C5CFE00F0D02D /* NSDate.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -237,6 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7415A8D81F3C5F5300F0D02D /* CustomTextField.swift in Sources */,
+				7415A8DA1F3C5F7D00F0D02D /* CustomLabel.swift in Sources */,
+				7415A8D61F3C5F3600F0D02D /* CustomButton.swift in Sources */,
+				7415A8D11F3C5CFE00F0D02D /* NSDate.swift in Sources */,
 				747204F61F0F587C00BCF9C3 /* UINavigationController.swift in Sources */,
 				747204FA1F0F5D6300BCF9C3 /* UIColor.swift in Sources */,
 				7467714D1F134D7A0090C35C /* UILabel.swift in Sources */,
@@ -246,6 +276,8 @@
 				746771481F1340A30090C35C /* UIFont.swift in Sources */,
 				7467714B1F134AA00090C35C /* Macro.swift in Sources */,
 				747204E31F0F580B00BCF9C3 /* AppDelegate.swift in Sources */,
+				7415A8CF1F3C5BAE00F0D02D /* BaseVc.swift in Sources */,
+				7415A8D31F3C5D4F00F0D02D /* UITextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
